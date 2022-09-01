@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <h3>Registo de Astronauta</h3>
+    <form action="#">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id=""><br><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id=""> -
+        <label for="password">Password:</label>
+        <input type="password" name="password" id=""><br><br>
+        <label for="birthdate">Birth date:</label>
+        <input type="date" name="birthdate" id=""> -
+        <label for="picture">Photo</label>
+        <input type="file" name="picture" id=""><br><br>
+        <div>
+            <label for="countries">Nationality:</label>
+            <select list="countries">
+                <option value="Portugal">portuguese</option>
+                <option value="Brazil">bazilian</option>
+                <option value="Angola">angolan</option>
+                <option value="France">french</option>
+                <option value="Spain">spanish</option>
+            </select> -
+            Gender:
+            <label for="radio">F</label>
+            <input type="radio" name="gender" id="gender" value="F">
+            <label for="radio">M</label>
+            <input type="radio" name="gender" id="gender" value="M"><br><br>
+        </div>
+        <label for="skills">Your main skills:</label><br>
+        <label for="checkbox">Inteligence</label>
+        <input type="checkbox">|
+        <label for="checkbox">Resilience</label>
+        <input type="checkbox">|
+        <label for="checkbox">Endurance</label>
+        <input type="checkbox">|
+        <label for="checkbox">Education</label>
+        <input type="checkbox">|<br><br>
+        <textarea name="description" id="description cols=" 30" rows="10"
+            placeholder="Why do you want to be an astronaut?"></textarea><br><br>
+        <input type="button" value="Register">
+    </form>
+</body>
+
+</html>

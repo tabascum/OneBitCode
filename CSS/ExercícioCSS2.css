@@ -1,0 +1,50 @@
+/* 
+Fontes utilizadas:
+
+1. Elemento H1 = Montserrat
+font-family: 'Montserrat', sans-serif;
+
+2. Elementos com a classe date = Roboto
+font-family: 'Roboto', sans-serif;
+
+3. Elementos com a classe post-content = Open Sans
+font-family: 'Open Sans', sans-serif;
+
+
+Cores:
+
+1. Background dos posts = #fffafa
+
+2. Cor da data = #008080 */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Roboto&display=swap");
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.post-container {
+  background-color: #edecec;
+  width: 70%;
+  height: 100%;
+  margin: 0 auto 0 auto;
+}
+
+.post-container .date {
+  font-family: "Roboto", sans-serif;
+  color: #008080;
+}
+
+.post-container div.post-content {
+  font-family: "Open Sans", sans-serif;
+  width: 90%;
+  font-weight: normal;
+}
+
+.post-container .post {
+  padding: 20px 50px;
+}
