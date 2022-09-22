@@ -1,0 +1,14 @@
+@mixin text-color($color, $background-color, $font-size, $font-family) {
+  color: $color;
+  background-color: $background-color;
+  font-size: $font-size;
+  font-family: $font-family;
+}
+.texts {
+  h1 {
+    @include text-color(#f1f, #000, 30px, Comic Sans);
+  }
+  p {
+    @include text-color(#000, #f1f, 20px, Comic Sans);
+  }
+}

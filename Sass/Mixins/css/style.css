@@ -1,0 +1,14 @@
+.texts h1 {
+  color: #f1f;
+  background-color: #000;
+  font-size: 30px;
+  font-family: Comic Sans;
+}
+.texts p {
+  color: #000;
+  background-color: #f1f;
+  font-size: 20px;
+  font-family: Comic Sans;
+}
+
+/*# sourceMappingURL=style.css.map */

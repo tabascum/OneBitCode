@@ -1,0 +1,26 @@
+//exemplo de herança
+
+.btn {
+  width: 125px;
+  padding: 10px 0px;
+  border-radius: 20px;
+  display: block;
+  margin-top: 10px;
+
+  &.btn-amarelo {
+    background-color: #f1f000;
+  }
+
+  &.btn-azul {
+    background-color: blue;
+    color: #f1f1f1;
+  }
+}
+
+//exemplo de extend
+
+.btn-roxo {
+  @extend.btn;
+  background-color: purple;
+  color: #f1f1f1;
+}

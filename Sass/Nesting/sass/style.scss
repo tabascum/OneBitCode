@@ -1,0 +1,19 @@
+.classe1 {
+  ul {
+    background-color: #523828;
+  }
+  li {
+    background-color: #008434;
+    padding: 10px;
+  }
+  button {
+    background-color: #008434;
+    color: #f1f1f1;
+    cursor: pointer;
+
+    &:hover {
+      background-color: red;
+      transition: 500ms;
+    }
+  }
+}
