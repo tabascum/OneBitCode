@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url(../../images/telescope.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #f1f1f1;
+}
+
+.container1 {
+  background-color: $background-color;
+  width: 450px;
+  height: auto;
+  padding: 10px 0;
+}
+
+.top-logo {
+  width: 100px;
+}
+
+.paragraph {
+  margin: 7px 0;
+}
+
+.btnSend {
+  color: $button-color;
+  border: 1px solid $button-color;
+
+  &:hover {
+    background-color: $button-color;
+    color: $background-color;
+  }
+}
+
+.footer {
+  margin-top: 30px;
+  margin-bottom: -30px;
+
+  & p {
+    background-color: $background-color;
+  }
+}
